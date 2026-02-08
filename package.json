@@ -1,0 +1,39 @@
+{
+  "name": "wpress-extractor",
+  "version": "1.0.0",
+  "description": "Extract content from All-in-One WP Migration WPRESS backup files",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "wpress-extractor": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "extract": "node dist/cli.js extract",
+    "content": "node dist/cli.js content",
+    "dev": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "wpress",
+    "wordpress",
+    "migration",
+    "extract",
+    "backup"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "wpress-extract": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
