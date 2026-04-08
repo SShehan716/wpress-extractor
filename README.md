@@ -1,5 +1,8 @@
 # WPRESS Extractor
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 Extract content from **All-in-One WP Migration** backup files (.wpress). Unpacks the archive, parses the WordPress database, and exports posts and pages as JSON or Markdown.
 
 ## Features
@@ -109,6 +112,11 @@ Each post/page becomes a `.md` file with frontmatter-style metadata and the cont
 - Node.js 18+
 - .wpress files from [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/)
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check out our [issues page](https://github.com/SShehan716/wpress-extractor/issues). If you'd like to contribute, please read the [Contributing Guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## License
 
-MIT
+[MIT](LICENSE)

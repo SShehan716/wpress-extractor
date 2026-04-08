@@ -21,7 +21,7 @@
     "extract",
     "backup"
   ],
-  "author": "",
+  "author": "SShehan716",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
