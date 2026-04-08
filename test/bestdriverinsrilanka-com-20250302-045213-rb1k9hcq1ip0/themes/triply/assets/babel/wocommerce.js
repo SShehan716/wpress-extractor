@@ -1,5 +1,0 @@
-class Woocommerce {
-
-}
-
-new Woocommerce();

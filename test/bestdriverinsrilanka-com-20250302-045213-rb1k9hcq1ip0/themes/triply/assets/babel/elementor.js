@@ -1,4 +1,0 @@
-class Elementor{
-
-}
-new Elementor();
