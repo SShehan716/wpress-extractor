@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@hostinger/hcomponents": "^1.3.96",
-    "axios": "^1.12.0",
+    "axios": "^1.13.5",
     "bootstrap-scss": "^5.3.3",
     "dayjs": "^1.11.13",
     "js-cookie": "^3.0.5",
